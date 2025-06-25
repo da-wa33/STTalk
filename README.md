@@ -1,7 +1,15 @@
 # STTalkの使い方
 
 ## 概要
-`STTalk` はブラウザ上で音声録音・文字起こし・履歴管理ができるシンプルな音声ツールです。IndexedDB を利用して録音履歴を保存します。
+`STTalk` はブラウザ上で音声録音・文字起こし・履歴管理ができるシンプルな音声ツールです
+
+## main.jsのダウンロード
+
+ファイルのダウンロードは[Releaseのところ](https://github.com/da-wa33/STTalk/releases/latest)か
+
+[Githubのソースコード置き場のここ](https://github.com/da-wa33/STTalk/blob/main/code/main.js)からダウンロードしてください
+
+(ソースコードからの場合は直接ダウンロードマークをおしてダウンロード!)
 
 ## HTML での利用例
 
