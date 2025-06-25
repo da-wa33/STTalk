@@ -1,7 +1,7 @@
 # STTalkの使い方
 
 ## 概要
-`STTalk` はブラウザ上で音声録音・文字起こし・履歴管理ができるシンプルな音声ツールです。IndexedDB を利用して録音履歴を保存します。
+`ST-Talk` はブラウザ上で音声録音・文字起こし・履歴管理ができるシンプルな音声ツールです。IndexedDB を利用して録音履歴を保存します。
 
 ## HTML での利用例
 
@@ -49,8 +49,8 @@
 | `deleteSession(id)` | 指定IDの履歴を削除します。|
 | `playSessionAudio(id)` | 指定IDの履歴の音声を再生します。|
 | `getSessionText(id)` | 指定IDの履歴のテキストを取得します。|
-| `setAlertEnabled(true/false)` | エラーや注意時のalertの表示ON/OFFを切り替えます。trueで表示、falseで非表示。|
-| `getAlertEnabled()` | エラー時のalertの表示状態（true/false）を取得します。|
+| `setAlertEnabled(true/false)` | alertの表示ON/OFFを切り替えます。trueで表示、falseで非表示。|
+| `getAlertEnabled()` | alertの表示状態（true/false）を取得します。|
 
 ## エラーレベル管理（ST_error_level）
 
@@ -58,12 +58,12 @@
 
 | 値 | 意味・発生箇所 |
 | --- | --- |
-| `-1` | 音声認識APIが未対応のブラウザで startRecognition() を呼び出した |
-| `1` | 履歴の音声データが見つからなかった（playSessionAudio）|
-| `2` | 録音セッションの履歴保存が正常に完了した（stopAll）|
-| `3` | 録音セッションの履歴保存時にエラーが発生した（stopAll）|
-| `4` | 保存できる録音データがない状態で saveAudio を呼び出した |
-| `5` | 再生できる音声がない状態で playAudio を呼び出した |
+| -1 | 音声認識APIが未対応のブラウザで startRecognition() を呼び出した |
+| 1 | 履歴の音声データが見つからなかった（playSessionAudio）|
+| 2 | 録音セッションの履歴保存が正常に完了した（stopAll）|
+| 3 | 録音セッションの履歴保存時にエラーが発生した（stopAll）|
+| 4 | 保存できる録音データがない状態で saveAudio を呼び出した |
+| 5 | 再生できる音声がない状態で playAudio を呼び出した |
 
 この変数を他のJSから参照することで、状態やエラーを判定できます。
 
