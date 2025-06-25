@@ -5,6 +5,20 @@
 
 ## main.jsのダウンロード
 
+### ネットから持ってくる(推奨)
+
+やりかたは簡単!
+
+`<script src="main.js"></script>`
+
+ここの部分を
+
+`<script src="https://da-wa.com/st-talk/main.js"></script>`
+
+にするだけ!
+
+### ダウンロード版
+
 ファイルのダウンロードは[Releaseのところ](https://github.com/da-wa33/STTalk/releases/latest)か
 
 [Githubのソースコード置き場のここ](https://github.com/da-wa33/STTalk/blob/main/code/main.js)からダウンロードしてください
