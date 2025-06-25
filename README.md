@@ -49,8 +49,8 @@
 | `deleteSession(id)` | 指定IDの履歴を削除します。|
 | `playSessionAudio(id)` | 指定IDの履歴の音声を再生します。|
 | `getSessionText(id)` | 指定IDの履歴のテキストを取得します。|
-| `setAlertEnabled(true/false)` | alertの表示ON/OFFを切り替えます。trueで表示、falseで非表示。|
-| `getAlertEnabled()` | alertの表示状態（true/false）を取得します。|
+| `setAlertEnabled(true/false)` | エラーや注意時のalertの表示ON/OFFを切り替えます。trueで表示、falseで非表示。|
+| `getAlertEnabled()` | エラー時のalertの表示状態（true/false）を取得します。|
 
 ## エラーレベル管理（ST_error_level）
 
