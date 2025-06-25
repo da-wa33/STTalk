@@ -1,11 +1,11 @@
 # STTalkの使い方
 
 ## 概要
-`ST-Talk` はブラウザ上で音声録音・文字起こし・履歴管理ができるシンプルな音声ツールです。IndexedDB を利用して録音履歴を保存します。
+`STTalk` はブラウザ上で音声録音・文字起こし・履歴管理ができるシンプルな音声ツールです。IndexedDB を利用して録音履歴を保存します。
 
 ## HTML での利用例
 
-```html```
+```html
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -49,6 +49,8 @@
 | `deleteSession(id)` | 指定IDの履歴を削除します。|
 | `playSessionAudio(id)` | 指定IDの履歴の音声を再生します。|
 | `getSessionText(id)` | 指定IDの履歴のテキストを取得します。|
+| `setAlertEnabled(true/false)` | エラー時のalertの表示ON/OFFを切り替えます。trueで表示、falseで非表示。|
+| `getAlertEnabled()` | エラー時のalertの表示状態（true/false）を取得します。|
 
 ## エラーレベル管理（ST_error_level）
 
@@ -64,6 +66,13 @@
 | `5` | 再生できる音声がない状態で playAudio を呼び出した |
 
 この変数を他のJSから参照することで、状態やエラーを判定できます。
+
+## alert表示切り替えについて
+
+`setAlertEnabled(true)` で alert（エラーや注意メッセージ）が表示され、`setAlertEnabled(false)` で alert が非表示（無効）になります。
+
+- デフォルトは true（alert表示）です。
+- `getAlertEnabled()` で現在の状態（true/false）を取得できます。
 
 ## 注意事項
 - 音声認識は Chrome など Web Speech API 対応ブラウザで動作します。
