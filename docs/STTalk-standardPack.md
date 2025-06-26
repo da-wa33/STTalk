@@ -50,7 +50,7 @@ console.log("検索結果:", results);
 
 - `exportAllSessionsAsZip()` を使うには [JSZip](https://stuk.github.io/jszip/) の読み込みが必要です。
 - `attachVolumeMeter(canvas)` は STTalk の `getVolume()` を利用しています。
-- `STTalk.js` 本体と併用する前提のアドオンです。
+- `STTalk.js` 本体と併用する前提のパックです。
 
 ---
 
