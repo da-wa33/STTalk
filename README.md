@@ -21,7 +21,7 @@
 
 ファイルのダウンロードは[Releaseのところ](https://github.com/da-wa33/STTalk/releases/latest)か
 
-[Githubのソースコード置き場のここ](https://github.com/da-wa33/STTalk/blob/main/code/main.js)からSTTalk.jsをダウンロードしてください
+[Githubのソースコード置き場のここ](https://github.com/da-wa33/STTalk/blob/main/code/STTalk.js)からSTTalk.jsをダウンロードしてください
 
 (ソースコードからの場合は直接ダウンロードマークをおしてダウンロード!)
 
