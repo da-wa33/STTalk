@@ -4,7 +4,7 @@
 
 ## ダウンロード
 
-- [ソースコード](https://github.com/da-wa33/STTalk/Packs/STTalk-htmlPack.js)
+- [ソースコード](https://github.com/da-wa33/STTalk/blob/main/Packs/STTalk-standardPack.js)
 - [ダウンロード](https://github.com/da-wa33/STTalk/releases/latest)
 
 ## ✅ 含まれる機能
