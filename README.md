@@ -3,17 +3,17 @@
 ## 概要
 `STTalk` はブラウザ上で音声録音・文字起こし・履歴管理ができるシンプルな音声ツールです
 
-## main.jsのダウンロード
+## STTalk.jsのダウンロード
 
 ### ネットから持ってくる(推奨)
 
 やりかたは簡単!
 
-`<script src="main.js"></script>`
+`<script src="STTalk.js"></script>`
 
 ここの部分を
 
-`<script src="https://da-wa.com/st-talk/main.js"></script>`
+`<script src="https://da-wa.com/st-talk/STTalk.js"></script>`
 
 にするだけ!
 
@@ -41,7 +41,7 @@
   <button onclick="STTalk.saveText()">テキスト保存</button>
   <button onclick="STTalk.playAudio()">再生</button>
   <div id="transcript"></div>
-  <script src="main.js"></script>
+  <script src="STTalk.js"></script>
   <script>
     STTalk.onText(function(text) {
       document.getElementById('transcript').textContent = text;
