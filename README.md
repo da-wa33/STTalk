@@ -104,9 +104,7 @@
 ## 拡張パック
 
 STTalkに新しい機能を追加したりできるのが拡張パックです
-
-
-**続報を待て**
+[ここから詳細が確認できます](https://github.com/da-wa33/STTalk/blob/main/docs/welcome-Pack.md)
 
 ---
 
