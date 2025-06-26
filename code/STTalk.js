@@ -188,7 +188,6 @@ const STTalk = (() => {
       if (audioBlob) {
         try {
           await addSession(audioBlob, finalTranscript);
-          console.log("録音セッションを履歴に保存しました");
           ST_error_level = 2;
         } catch (e) {
           console.error("履歴保存エラー", e);
