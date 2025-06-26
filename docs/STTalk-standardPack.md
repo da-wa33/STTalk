@@ -1,6 +1,6 @@
 # STTalk-standardPack
 
-🛠️ **STTalk-StandardPack** は、STTalkに +α のユーティリティ機能を追加する拡張モジュールです。
+🛠️ **STTalk-standardPack** は、STTalkに +α のユーティリティ機能を追加する拡張モジュールです。
 
 ## ダウンロード
 
